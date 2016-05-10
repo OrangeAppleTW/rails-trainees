@@ -42,13 +42,11 @@
 ## SQL
 - miniprofiler
 
-## DOM
+## DOM & jQuery
 
-## jQuery
 
 ## 潮潮的前端 framework
 - 組字串，然後 append
-- 
 - 其實你最常用的是 template 
 
 ## AJAX
