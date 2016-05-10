@@ -58,6 +58,8 @@
 * 用 rails 寫一個部落格，能夠發文、留言，所以至少需要 posts, comments 兩張 table
 * 不用使用 slim, 用原生的 erb 即可
 * 使用 scaffold 建 migration
-* Scaffold 請參考：http://railsbridge-docs-zh-tw.herokuapp.com/%E5%88%9D%E6%8E%A2-rails/%E5%BB%BA%E7%AB%8B_migration
-* scaffold 完之後請觀察： model, controller, view, migration 資料夾新增的檔案, route.rb
-* 也可以在 terminal 下執行 `rake routes` 看看目前的 routing list
+
+> ### Hint:
+> * Scaffold 請參考：http://railsbridge-docs-zh-tw.herokuapp.com/%E5%88%9D%E6%8E%A2-rails/%E5%BB%BA%E7%AB%8B_migration
+> * scaffold 完之後請觀察： model, controller, view, migration 資料夾新增的檔案, route.rb
+> * 也可以在 terminal 下執行 `rake routes` 看看目前的 routing list
