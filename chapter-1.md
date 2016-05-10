@@ -8,10 +8,10 @@
 * 安全
 * 接口設計良好 (Middleware)
 
-## Rails 是什麼？
+### Rails 是什麼？
 * 一個 ruby 程式，可以藉由 gem 安裝
 * 安裝後，能在 terminal 啟動一個新專案： `rails new [專案名稱]`
-* 
+* 之後會產生一堆 folder 和 file，可以輸入 `rails s` 來執行
 
 ### MVC 架構
 * 定義有點眾說紛紜，也不用太追究，大致上是：
@@ -57,6 +57,7 @@
 ## Homework
 * 用 rails 寫一個部落格，能夠發文、留言，所以至少需要 posts, comments 兩張 table
 * 不用使用 slim, 用原生的 erb 即可
+* 使用 scaffold 建 migration
 * Scaffold 請參考：http://railsbridge-docs-zh-tw.herokuapp.com/%E5%88%9D%E6%8E%A2-rails/%E5%BB%BA%E7%AB%8B_migration
 
 ### rails new 
