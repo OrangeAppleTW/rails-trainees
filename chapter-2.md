@@ -49,7 +49,7 @@ rake assets:precompile
 
 ### 常見問題
 1. 既然是圖片的檔名在每次 precompile 後都不一樣，如何在 css 中 include 他？  
-> http://guides.rubyonrails.org/v4.0/asset_pipeline.html#coding-links-to-assets
+A: http://guides.rubyonrails.org/v4.0/asset_pipeline.html#coding-links-to-assets
 2. 
 
 
