@@ -1,7 +1,14 @@
 # 
 
-## 登入功能
+## 會員系統
 
+### 一個會員系統，該要有那些功能？
+* 登入
+* .....?
+* .....?
+* .....?
+
+### 為什麼要用 Devise ?
 > * Database Authenticatable: hashes and stores a password in the database to validate the authenticity of a user while signing in. The authentication can be done both through POST requests or HTTP Basic Authentication.
 > * Omniauthable: adds OmniAuth (https://github.com/intridea/omniauth) support.
 > * Confirmable: sends emails with confirmation instructions and verifies whether an account is already confirmed during sign in.
