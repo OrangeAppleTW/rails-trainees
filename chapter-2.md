@@ -48,6 +48,12 @@
 rake assets:precompile
 ```
 
+### 一些熱門的前端套件，也能用 Gem 做引入！
+例如：
+* https://github.com/hiravgandhi/angularjs-rails
+* https://github.com/twbs/bootstrap-sass
+* https://github.com/adambutler/vuejs-rails
+
 ### 常見問題
 1. 既然是圖片的檔名在每次 precompile 後都不一樣，如何在 css 中 include 他？  
 A: http://guides.rubyonrails.org/v4.0/asset_pipeline.html#coding-links-to-assets
