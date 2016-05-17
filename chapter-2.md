@@ -1,4 +1,4 @@
-# Lesson 2
+# Lesson 2 - 會員系統 & 靜態資源管理
 
 ## 會員系統
 
@@ -27,6 +27,7 @@
 > * Validatable: provides validations of email and password. It's optional and can be customized, so you're able to define your own validations.
 > * Lockable: locks an account after a specified number of failed sign-in attempts. Can unlock via email or after a specified time period.
 
+<br>
 
 ## 靜態資源管理
 
@@ -39,7 +40,7 @@
 
 
 ### Rails 使用 Assets-pipeline 管理這些靜態資源
-* Assets-pipeline 觀念講解：[https://ihower.tw/rails4/assets-pipeline.html](https://ihower.tw/rails4/assets-pipeline.html)
+* Assets-pipeline 觀念講解：https://ihower.tw/rails4/assets-pipeline.html
 * Rails 4 的 Sprockets: http://guides.ruby-china.org/asset_pipeline.html
 
 #### 上 Production 之前請記得：
