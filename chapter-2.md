@@ -57,8 +57,11 @@ rake assets:precompile
 ### 常見問題
 1. 既然是圖片的檔名在每次 precompile 後都不一樣，如何在 css 中 include 他？  
 A: http://guides.rubyonrails.org/v4.0/asset_pipeline.html#coding-links-to-assets
-2. 
 
+## 作業
+* 用 [Devise](https://github.com/plataformatec/devise) 加入會員 註冊/登入 功能
+* 只有會員能發文，並對自己的文章做修改、刪除
+* 使用 Bootstrap 的 grid system 以及 component 美化頁面
 
 
 
