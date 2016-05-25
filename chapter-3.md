@@ -1,5 +1,8 @@
 # 資料庫存取優化
 
+Rails 其實默默地幫你做了不少優化，舉例來說，Rails 會幫你 cache 住 DB query，當你在同一個 action 中不小心做了兩次相同的 query 時，第二筆就會從 cache 中取出來用。  
+> 參考：http://guides.ruby-china.org/caching_with_rails.html#sql-%E7%BC%93%E5%AD%98
+
 ## Mini-profiler
 
 > Gem: https://github.com/MiniProfiler/rack-mini-profiler
@@ -43,4 +46,6 @@ https://www.hoanghiep.org/2015/07/26/miniprofiler-performance-testing-rails-appl
 這時 Rails 會使用 SQL 的 in 搜尋，預先幫你把所有符合條件的 user ***一次*** 拉出來，並且與 post 做 mapping，所以總共只有兩次的資料庫讀取。  
 非常推薦看一下這篇文章，其中 N+1 問題部分也講得很清楚： https://ihower.tw/rails4/performance.html
 
-## Rails 默默幫你做的事
+## Counter Cache
+請參考本文：http://cat-son.blogspot.tw/2013/09/rails-counter-cache.html
+
