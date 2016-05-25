@@ -49,3 +49,11 @@ https://www.hoanghiep.org/2015/07/26/miniprofiler-performance-testing-rails-appl
 ## Counter Cache
 請參考本文：http://cat-son.blogspot.tw/2013/09/rails-counter-cache.html
 
+## 作業
+* 請在文章列表的頁面中顯示***本文作者***及***留言數***，並同時避免 N+1 問題
+* 請設計 ***讚(Like)*** 機制，讓使用者能夠對文章以及留言按讚，你可能需要新增一個 Table 來記錄 Likes
+* `挑戰題`：讓使用者不只能按 “讚”，也能按 “幹”，但不能兩個都按。
+
+> Hint:
+> 請安裝 `rack-mini-profiler` 這個 gem 來檢查有無多餘的 query
+> 可安裝 `rails-erd` 這個 gem 來產生 UML 圖，檢查 Model 間的從屬關係
